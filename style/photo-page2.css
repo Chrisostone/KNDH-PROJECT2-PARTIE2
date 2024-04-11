@@ -1,0 +1,202 @@
+
+.rangement{
+    margin-top: 22px;
+    width: 200px;
+height: 25px;
+
+}
+.numero1{
+    padding: 6px 10px;
+    margin-top: 20.9px;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    float: right;
+    background-color: #f54d05;
+    height: 32px;
+    width: 45px;
+}
+/* Css du main de la page photo1>*/
+
+.sefixer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 60px;
+    margin-left: 180px;
+}
+.blockdeparagraphe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 105px;
+    margin-left: 180px;
+    
+
+}
+.paragraphe7{
+    margin-right: 40px;
+}
+.blockdeinpu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 180px;
+    margin-right: 105px;
+
+}
+
+.blockbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: 180px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+
+}
+.Ph1, .Ph2{
+    width: 350px;
+    height: 450px;
+
+    margin-left: 10px;
+    margin-right: 105px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+
+}
+.Ph1{
+    padding-right: 50px;
+    padding-left: 15px;
+    
+}
+
+
+/*.paragraphe7, .paragraphe8{
+    margin-left: 170px; 
+}*/
+
+.inpu6{
+    /*margin-left: 22%;
+   
+    
+    margin-top: 0px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;*/
+    margin-left: 15px;
+    margin-bottom: 30px;
+    padding-bottom:15px ;
+    background-color: orangered;
+    border-radius: 8px 8px 8px 8px ;
+    font-weight: bold;
+
+}
+
+
+.inpu7{
+    margin-left: 62%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    padding-bottom:15px ;
+    background-color: orangered;
+    border-radius: 8px 8px 8px 8px ;
+    font-weight: bold;
+}
+.Ph4, .Ph6{
+    
+    width: 250px;
+    height: 400px;
+    margin-left: 130px;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+
+    
+.Ph5{
+    padding-left: 15px;
+    width: 250px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-left: 45px;
+  
+}
+
+.paragraphe11, .paragraphe12{
+    text-align: center;
+    
+}
+.inpu8{
+    
+    margin-left: 46%;
+    padding-bottom:25px ;
+    padding: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom:5px ;
+    background-color: orangered;
+    border-radius: 8px 8px 8px 8px ;
+    font-weight: bold;
+}
+
+
+.aime, .AIME{
+    background: none;
+    border:#ECD9D1; ;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 15px;
+    transition: color 0.3;
+    margin-right: 105px;
+    margin-left: 0px;
+}
+.aimer{
+    background: none;
+    border:#ECD9D1; ;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px ;
+    margin-bottom: 25px;
+    position: relative;
+    transition: color 0.3;
+    margin-right:600px;
+   
+}
+
+.aime::before  {
+    content: "\2665";
+    font-size: 50px;
+
+  }
+  .aime:active{
+    color:black
+  }
+  .AIME::before  {
+    content: "\2665";
+    font-size: 50px;
+
+  }
+  .AIME:active{
+    color:black
+  }
+
+      
+  .aimer::before  {
+        content: "\2665";
+        font-size: 50px;
+
+      }
+      .aimer:active{
+        color:black
+      }

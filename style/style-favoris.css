@@ -1,0 +1,21 @@
+                            /*FICHIER CSS POUR LA PAGE FAVORIS*/
+                            
+.div-directeur{
+    text-align: center;
+    margin-top: 5%;
+}
+.div-button{
+border-style: none;
+border-radius: 15px;
+width: 200px;
+padding: 10px;
+background-color:#f54d05 ;
+font-weight: bold;
+margin: auto;
+}
+.div-button:hover{
+    background-color: #e3835a;
+}
+.button-a:visited{
+    color: black;
+}

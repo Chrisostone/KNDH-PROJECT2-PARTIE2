@@ -1,0 +1,30 @@
+.main-content1 {
+    
+
+    text-align: center;
+    
+  }
+  .h2-mot{
+    color: #f54d05;
+
+  }
+  .p-mot{
+    font-style: italic;
+  }
+
+  .button-dan{
+    background-color: #f54d05;
+    color: black;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    margin: 15px;
+
+  }
+  .input-dan{
+    height: 20px;
+    width: 200px;
+  }

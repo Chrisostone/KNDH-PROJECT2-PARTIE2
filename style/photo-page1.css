@@ -1,0 +1,101 @@
+
+.rangement{
+    margin-top: 22px;
+    width: 200px;
+height: 25px;
+
+}
+/* Css du main de la page photo1>*/
+.img1, .img3, .img4, .img6{
+    width: 250px;
+    height: 400px;
+    margin-left: 110px;
+    margin-right: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+    
+.img5{
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+  
+}
+.img2{
+    
+    width: 300px;
+    height: 400px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+
+
+}
+
+.paragraphe3, .paragraphe4, .paragraphe5, .paragraphe6 {
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+}
+
+.input4{
+    font-family: 'Lobster', sans-serif;
+    margin-left: 42%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom:15px ;
+    background-color: orangered;
+    border-radius: 8px 8px 8px 8px ;
+    font-weight: bold;
+
+}
+.input5{
+    font-family: 'Lobster', sans-serif;
+    margin-left: 42%;
+    padding-bottom:25px ;
+    padding: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom:5px ;
+    background-color: orangered;
+    border-radius: 8px 8px 8px 8px ;
+    font-weight: bold;
+}
+
+
+.aime, .aimer{
+    background: none;
+    border:#ECD9D1; ;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: color 0.3;
+}
+
+.aime::before  {
+    content: "\2665";
+    font-size: 50px;
+
+  }
+  .aime:active{
+    color:black
+  }
+
+      
+  .aimer::before  {
+        content: "\2665";
+        font-size: 50px;
+
+      }
+      .aimer:active{
+        color:black
+      }
+

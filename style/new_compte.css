@@ -1,0 +1,109 @@
+.section-compte h1{
+    color: #F54D06;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5em;
+
+    .section-compte{
+    display: flex;
+    flex-direction: column;
+    }
+    .compte{
+
+      font-family: "Lobster Two", sans-serif;
+      font-style: italic;
+      font-size: 2em;
+    }
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  .compte {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .form-nom-prenom-email-motdepasse{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border: black;
+  }
+   
+  label {
+    margin-bottom: 10px;
+  }
+  
+
+  p{font-family: "Lobster Two", sans-serif;
+  font-style: italic;
+  font-size: 2em;
+  }
+  .Logoo {  width: 30px;
+    height: auto;
+}
+.gros_Logoo{ 
+  width: 300px;
+}
+
+
+  .color{ 
+    font-size: 1.5em;
+    margin-top: -50px;
+    margin-bottom: 20px;
+  }
+  .texte { display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+  input,
+  textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: black;
+  }
+  .cta:hover {
+    background: linear-gradient(#eceae9,#fb996e);
+    text-decoration: none;
+  }
+  .cta {
+    display: inline-block;
+    background: linear-gradient(#EDC8B8,#F54D06);
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-weight: bold;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+ .section-compte {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  
+ 
+ 

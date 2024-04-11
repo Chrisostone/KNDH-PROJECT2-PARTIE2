@@ -1,0 +1,71 @@
+
+.fourmi{
+    margin-top: 22px;
+    width: 200px;
+height: 25px;
+
+}
+
+/*css du main*/
+h1{
+    text-align: center;
+    color: orangered;
+    font-family: 'Lobster', sans-serif;
+
+}
+
+p, .GR1, .GR2, .GR3{
+    text-align: center;
+}
+.paragraphe1{
+    font-family: 'Lobster', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 45px;
+}
+
+.paragraphe2{
+    font-family: 'Lobster', sans-serif;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.input1, .input2, .input3, .input4, .input5{
+    font-family: 'Lobster', sans-serif;
+     margin-bottom: 60px;
+    margin-top: 15px;
+    border:none;
+}
+
+.input1 {
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.input2 {
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.input1, .input2{
+    margin-left: 55px;
+}
+
+.input3{
+    font-size: 16px;
+    margin-left: 5%;
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom:15pxpx ;
+    background-color: orangered;
+    border-radius: 4px 6px 4px 6px ;
+    font-weight: bold;
+    
+}

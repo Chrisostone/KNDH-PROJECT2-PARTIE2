@@ -1,0 +1,75 @@
+.section-contact h1{
+    color: #F54D06;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 7em;
+  }
+  
+.section-contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+  }
+  
+  .form-nom-prenom-telephone-email{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: black;
+  }
+  
+  input,
+  textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: black;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+  }
+  .cta:hover {
+    background: linear-gradient(#eceae9,#fb996e);
+    text-decoration: none;
+  }
+  .cta {
+    display: inline-block;
+    background: linear-gradient(#EDC8B8,#F54D06);
+    color: black;
+    border-radius: 50px;
+    padding: 20px 30px;
+
+  }
+  @media screen and (max-width: 996px) {
+  .form-nom-prenom-telephone-email {
+    flex-direction: column;
+    gap: 0;
+  }
+  .section-contact {
+    padding: 50px 20px;
+  }
+  
+  }
+  

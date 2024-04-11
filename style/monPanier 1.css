@@ -1,0 +1,51 @@
+.main-panier {
+    
+    
+    text-align: center;
+    } 
+.panier-vide {
+    
+    margin-bottom: 20px;
+    padding: 20px;
+    
+    margin-top: 20px;
+    text-align: 100px;
+    align-self: center;
+    
+}
+.articles-enregistres{
+    
+    background-color:  #ecd9d1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-style: italic;
+    text-align: left;
+
+}
+.button-pan {
+    background-color:#f54d05;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+    border-style: none;
+    cursor: pointer;
+    border-radius: 15px;
+    height: auto;
+    width: auto  ;
+}
+.img-panier{
+    height: 60px;
+    width: 60px;
+}
+.div-panier{
+    
+    
+    text-align: center;
+    align-content: center;
+}
+.img-pan{
+    margin-top: 4%;
+    
+}

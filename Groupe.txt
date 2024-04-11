@@ -1,0 +1,7 @@
+Ange-Christophe Niamke:(acceuil et syle accueil,favoris et style favoris,header et footer(style) de toutes pages,maquette d'inspiration ,liaisons de toute les pages))
+
+Diallo Abdounourou:(page panier et,page mot de passe,gestion de compte)
+
+plamedie:(pagephoto1,pagephoto2,page2-Formulaire,formulaire projet et leurs style)
+
+lois:(Page contactez nous,page connexion,page création de compte,a propos et leurs syles)

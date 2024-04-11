@@ -1,0 +1,167 @@
+
+                                /*FICHIER CSS POUR LA BARRE DE NAVIGATION ET DU FOOTER*/
+
+
+/*permettre au footer de rester en bas de la page*/
+body{
+    background-color: #c3b2ab;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+/*mise en forme du header*/
+header{
+    background-color: #ecd9d1;
+}
+
+.logo{
+    width: 300px;
+}
+
+.input{
+width: 250px;
+height: 22px;
+border: 0;
+outline: none;
+padding: 6px;
+margin-top: 20px;
+font-size: 18px;
+}
+
+.button{
+    padding: 6px 10px;
+    margin-top: 20.9px;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    float: right;
+    background-color: #f54d05;
+    height: 32px;
+    width: 45px;
+}
+.material-icons{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.button:hover{
+    background-color: #fd6e31;
+}
+
+
+.image-header{
+    width: 20px;
+}
+
+#contenant1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+#contenant1 div ul li{
+    font-weight: bold;
+}
+
+#contenant1 div ul li:hover{
+    color: #f54d05;
+}
+
+#contenant1 div>ul>li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.li-header-navigation{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 20px;
+    
+}
+.li-header-navigation li{
+    margin: auto;
+    margin-bottom: 10px;
+   font-weight: bold;
+   text-align: center;
+}
+.li-header-navigation li:hover{
+    background-color: #f54d05;
+    height: 25px;
+    width: 130px;
+    color: white;
+    border: white solid;
+    padding: 3px;
+}
+a{
+    text-decoration: none;
+}
+/* Apres avoir visté un lien*/
+a:visited{
+    color:black;
+}
+a:visited:hover{
+    color:white;
+}
+.a:visited:hover{
+    color: #f54d05;
+}
+.li-deroulant{
+    display:none ;
+    position: absolute;
+    text-align: left;
+    z-index: 100;
+    padding: 0;
+    background: linear-gradient(rgba(255, 85, 0, 0.922),rgba(255, 255, 255, 0.303) );
+    list-style: none;
+    margin-top: 5px;
+}
+.block:hover .li-deroulant{
+    display: block;
+}
+
+
+/*mise en forme du footer*/
+footer{
+    background-color:#ecd9d1;
+   margin-top: auto;
+   padding: 10px;
+}
+.li-footer{
+    list-style: none;
+}
+.gras-footer{
+    font-weight: bold;
+    color: #f54d05;
+}
+.gras-footer a:visited{
+    color: #f54d05;
+}
+.image-footer{
+    width: 40px;
+    margin-top: 20;
+}
+
+
+#contenant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#group-compte{
+    margin-left: 50px ;
+}
+#contenant div{
+    margin: auto;
+}
+.kndh{
+    font: italic;
+    font-size: 10px;
+}
