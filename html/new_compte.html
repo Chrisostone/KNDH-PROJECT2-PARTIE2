@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Lobster&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <script src="../JavaScript/barre.js"></script>
     <title>KNDH-new-Compte</title>
 </head>
 <body>
@@ -22,11 +23,11 @@
                 <img src="../image/Logo Projet1.png" alt="" class="logo">
              </div>
              <div>
-                <form action="">
-                    <input type="text" placeholder="Recherche..." class="input">
+                <form id="searchForm">
+                    <input type="text" placeholder="Recherche..." class="input" id="searchInput">
                     <button type="submit" class="button">
                         <span class="material-icons">
-                        search
+                            search
                         </span>
                     </button>
                 </form>
@@ -85,44 +86,44 @@
     <main class="compte">
         <section class="section-compte">
             <h1>Créer un compte</h1>
-            <form method="get" action="" class="form">
-                    <div class="form-nom-prenom-email-motdepasse">
-                        <div class="form-column">
-                            <label for="nom">Nom</label>
-                            <input type="text" name="nom" id="nom">
-                        </div>
-                        <div class="form-column">
-                            <label for="prenom">Prenom</label>
-                            <input type="text" name="prenom" id="prenom">
-                        </div>
-                        <div class="form-column">
-                            <label for="email">Email</label>
-                            <input type="e-mail" name="email" id="email">
-                        </div>
-                        <div class="form-column">
-                            <label for="mot de passe">Mot de passe</label>
-                            <input type="text" name="mot de passe" id="mot de passe">
-                        </div>
-                        <div class="form-column">
-                            <label for="Confirmer le mot de passe"> Confirmer le mot de passe </label>
-                            <input type="text" name="Confirmer le mot de passe" id="Confirmer le mot de passe">
-                        </div>
-                        <div >
-                            <input type="submit" value="Créer  un compte" class="cta">
-                            <div class="texte">
-                            <img src="../image/conexion.png" alt="Logo connection" class="Logoo">
-                            <p>
-                                Vous avez un compte?
-                            </p>
-                        </div>
+            <form method="post" action="" class="form">
+                <div class="form-nom-prenom-email-motdepasse">
+                    <div class="form-column">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom">
                     </div>
-                   <a href="../html/compte.html" class="color">Connectez-vous</a>
+                    <div class="form-column">
+                        <label for="prenom">Prenom</label>
+                        <input type="text" name="prenom" id="prenom">
+                    </div>
+                    <div class="form-column">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-column">
+                        <label for="password">Mot de passe</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="form-column">
+                        <label for="confirmPassword">Confirmer le mot de passe</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword">
+                    </div>
+                </div>
+                <input type="submit" value="Créer un compte" class="cta">
+                <div id="message" class="message"></div> <!-- Élément pour afficher les messages -->
+
+                    <div class="texte">
+                        <img src="../image/conexion.png" alt="Logo connection" class="Logoo">
+                        <p>Vous avez un compte?</p>
+                    </div>
+                    <div><a href="../html/compte.html" class="color">Connectez-vous</a></div>
             </form>
         </section>
         <section>
-          <img src="../image/conexion.png" alt="Logo connection" class="gros_Logoo">
+            <img src="../image/conexion.png" alt="Logo connection" class="gros_Logoo">
         </section>
     </main>
+    <script src="../JavaScript/scriptNewcompte.js"></script>
 
 </body>
 

@@ -98,6 +98,13 @@
   .mpt{
     font-weight: bold;
   }
+  .mop{
+    display: flex;
+  }
+  .mop2{
+    margin-top: 45px;
+    margin-left: 10px;
+  }
   
   
  
