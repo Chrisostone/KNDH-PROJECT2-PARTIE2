@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/style-favoris.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../style/style-accueil.css">
+    <link rel="stylesheet" href="formulaire.css">
     <script src="../JavaScript/barre.js"></script>
-    <title>Favoris</title>
+    <title>Jeu de Mémoire</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -81,15 +83,12 @@
             </ul>
         </div>
     </header>
-    <main>
-        <div class="div-directeur">
-            <h1>Mes Favoris (0)</h1>
-            <h2>ENREGISTREZ VOS ARTICLES PREFÉRÉES</h2>
-            <p>Vous souhaitez enregistrer les articles que vous aimez? Il vous suffit de</p>
-            <p>cliquer sur le symbole en forme de cœur de l'article et il s'affichera ici.</p>
-            <a href="../html/accueil.html" class="button-a"><div class="div-button" >Magasinez maintenant</div></a>
-        </div>
-    </main>
+    <div class="container">
+    <h1>Jeu de Mémoire - Trouvez les paires!</h1>
+    <section class="memory-game"></section>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 <footer>
@@ -108,7 +107,7 @@
         </div>
         <div class="text-au-centre">
             <ul class="li-footer">
-                <li class="gras-footer"><a href="../html/a-propos.html">A propos de nous</a></li>
+                <li class="gras-footer"><a href="../html/a-propos.html" class="a">A propos de nous</a></li>
                 <li>
                     <a href="../html/Formulaireprojet.html" class="a">Postulez ici</a>
                 </li>
