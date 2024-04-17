@@ -19,3 +19,16 @@ margin: auto;
 .button-a:visited{
     color: black;
 }
+
+
+#imagefavoris{
+    width: 200px;
+    height: 200px;
+   
+}
+#imagefavoris img{
+    
+    max-width:100% ;
+
+}
+

@@ -39,7 +39,7 @@
     height: 60px;
     width: 60px;
 }
-.div-panier{
+.Panier{
     
     
     text-align: center;
@@ -48,4 +48,15 @@
 .img-pan{
     margin-top: 4%;
     
+}
+
+#imagefavoris{
+    width: 200px;
+    height: 200px;
+   
+}
+#imagefavoris img{
+    
+    max-width:100% ;
+
 }
