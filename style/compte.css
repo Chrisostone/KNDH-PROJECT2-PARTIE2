@@ -106,6 +106,60 @@
     margin-left: 10px;
   }
   
+@media screen and (max-width: 768px) {
+
+  #contenant1 {
+    flex-direction: column; /* Changer la direction de la navigation en colonne */
+    align-items: center; /*  Centrer les éléments */
+  }
+  .logo {
+    margin-bottom: 20px; /*  Ajouter de l'espace sous le logo */
+  }
+  .li-header-navigation li {
+    padding: 10px; /* Augmenter la marge autour des éléments de navigation*/
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .input {
+    width: 100px; /*Rendre le champ de saisie de largeur totale */
+  }
+  
+}
+
+
+@media screen and (max-width: 1024px) {
+ 
+  .input {
+    width: 100px; /*Rendre le champ de saisie de largeur totale */
+  }
+  .compte {
+    padding: 20px; /* Ajouter de la marge autour du contenu principal */
+  }
+  .section-compte {
+    margin-bottom: 20px; /* Ajouter de l'espace sous la section  */
+  }
+  .form-email-password {
+    display: flex; /*Afficher les colonnes du formulaire en ligne */
+    flex-wrap: wrap; /* Permettre aux colonnes de se retourner sur les écrans plus petits */
+  }
+  .form-column {
+    flex: 1 1 100%; /* Faire en sorte que les colonnes du formulaire prennent toute la largeur */
+    margin-bottom: 10px; /* Ajouter de l'espace entre les colonnes du formulaire  */
+  }
+  .cta {
+    display: block; /* Afficher le bouton comme un élément de bloc */
+    margin-top: 20px; /*Ajouter de l'espace au-dessus du bouton  */
+    width: 100%; /*Rendre le bouton de largeur totale */
+  }
+  .mpt {
+    display: block; /*  Afficher le lien comme un élément de bloc */
+    text-align: center; /* Centrer le texte du lien */
+    margin-top: 10px; /*Ajouter de l'espace au-dessus du lien */
+  }
+}
+
   
  
  
