@@ -5,20 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
-    <link rel="stylesheet" href="../style/formulaire.css">
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Lobster&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
-    <script src="../JavaScript/Formulaireprojet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../style/style-accueil.css">
+    <link rel="stylesheet" href="../style/pageAccesoire.css">
+    <script src="../JavaScript/pageAccesoire.js"></script>
     <script src="../JavaScript/barre.js"></script>
-
-    <link rel="stylesheet" href="receptionformulaire.html">
-
-    <title>Formulaire1</title>
+    <title>accueil</title>
 </head>
 <body>
     <header>
@@ -28,10 +21,10 @@
              </div>
              <div>
                 <form id="searchForm">
-                    <input type="text" placeholder="Recherche..." class="input" id="searchInput">
+                    <input type="text" placeholder="Recherche..." class="input">
                     <button type="submit" class="button">
                         <span class="material-icons">
-                            search
+                        search
                         </span>
                     </button>
                 </form>
@@ -68,11 +61,8 @@
                           <a href="../html/Pagephoto1.html">Femmes</a>
                         </li>
                         <li>
-                           <a href="../html/pageAccesoire.html    "> Accessoires</a>
+                           <a href="../html/pageAccesoire.html"> Accessoires</a>
                         </li>
-                        <li>
-                            <a href="../jeux/jeux.html"> KNDH-Game</a>
-                         </li>
                     </ul>
                 </li>
                 <li>
@@ -80,6 +70,9 @@
                         redeem
                     </span>
                     <a href="../html/pageAccesoire.html">Promotion</a>
+
+
+
                 </li>
                 <li>
                     <span class="material-icons">
@@ -90,99 +83,72 @@
             </ul>
         </div>
     </header>
-    <main>
 
+        <main>
+            <h2>Nos Ventes d'Accessoires</h2>
+            <section class="sales">
 
-            <h1>Remplissez le formulaire de vos coordonnées</h1>
-
-             <form id="myForm">
-
-
-                    <div class="div1">
-                         <label for="Prenom" > Prenom
-                         </label>
-                         <input type="text" class="inpu2"
-                         name="Prenom" id="Prenom"
-                        placeholde="">
-
-                         <label for="Domicile" class="labo2"> Domicile
-                         </label>
-                         <input type="text" class="inpu3"
-                         name="Domicile" id="Domicile"
-                            placeholder="">
-
-                         <label for="Pays" class="labo3"> Pays
-                         </label>
-                          <input type="text" class="inpu4"
-                         name="Pays" id="Pays"
-                         placeholder="">
-
+                <div class="product-img">
+                    <img src="../image/sac a main.jpg" alt="Sac à main">
+                    <h3>Sac à main</h3>
+                    <p>Sac à main élégant en cuir synthétique.</p>
+                    <span class="price">$49.99</span>
+                    <button type="submit" class="butonp">Ajouter au panier</button>
+                    <div class="favorite-button">
+                        <img src="../image/favoris.png" alt="" height="20" width="20" >
                     </div>
 
-                     <div class="div2">
 
-                        <label for="Nom_de_famille"> Nom de famille
-                         </label>
-                         <input type="text" class="inpu5"
-                         name="Nom de famille" id="Nom_de_famille"
-                         placeholder="">
-
-                         <label for="Code_postal" class="labo4"> Code postal
-                          </label>
-                         <input type="text" class="inpu6"
-                         name="Code postal" id="Code_postal"
-                         placeholder="">
-
-                          <label for="Poste_Souhaite" class="labo5"> Poste Souhaité
-                         </label>
-                        <input type="text" class="inpu7"
-                        name="Poste Souhaite" id="Poste_Souhaite"
-                         placeholder="">
+                </div>
+                <div class="product-img">
+                    <img src="../image/sac a main2.jpg" alt="Sac à main">
+                    <h3>Sac à main</h3>
+                    <p>Sac à main élégant en cuir synthétique.</p>
+                    <span class="price">$89.99</span>
+                    <button type="submit" class="butonp">Ajouter au panier </button>
+                    <div class="favorite-button">
+                        <img src="../image/favoris.png" alt="" height="20" width="20" >
                     </div>
 
-                    <div class="div3">
-
-                        <label for="Adresse_couriel" class="labo6">Adresse couriel
-                        </label>
-                        <input type="text" class="inpu8"
-                        name="Adresse couriel" id="Adresse_couriel"
-                        placeholder="">
-
-                        <label for="Ville" class="labo7"> Ville
-
-                        </label>
-                        <input type="text" class="inpu9"
-                        name="Ville" id="Ville"
-                        placeholder="">
-                        <a href="../html/receptionformulaire.html" target="_blank" id="receptionformulaire">Téléverser votre doc ici</a>
-
-
-
+                </div>
+                <div class="product">
+                    <img src="../image/montre.jpg" alt="Montre">
+                    <h3>Montre</h3>
+                    <p>Montre analogique en acier inoxydable.</p>
+                    <span class="price">$79.99</span>
+                    <button type="submit" class="butonp">Ajouter au panier</button>
+                    <div class="favorite-button">
+                        <img src="../image/favoris.png" alt="" height="20" width="20" >
                     </div>
 
-                    <div class="div4">
-                        <label for="Numero_de_telephone" class="labo8"> Numero de téléphone
-                        </label>
-                        <input type="text" class="inpu10"
-                        name="Numero de telephone" id="Numero_de_telephone"
-                        placeholder="">
-
-                        <label for="Province" class="selection" class="labo1"> Province
-                        </label>
-                        <input type="text"  class="inpu11" name="Province" id="Province">
-
+                </div>
+                <div class="product">
+                    <img src="../image/montre2.jpg" alt="Montre">
+                    <h3>Montre</h3>
+                    <p>Montre analogique </p>
+                    <span class="price">$69.99</span>
+                    <button type="submit" class="butonp">Ajouter au panier</button>
+                    <div class="favorite-button">
+                        <img src="../image/favoris.png" alt="" height="20" width="20" >
                     </div>
 
-                    <div><button type="submit" class="div5">Soumettre</button></div>
+                </div>
+                <div class="product">
+                    <img src="../image/lunette.jpg" alt="Lunettes de soleil">
+                    <h3>Lunettes de soleil</h3>
+                    <p>Lunettes de soleil polarisées avec monture en métal.</p>
+                    <span class="price">$29.99</span>
+                    <button type="submit" class="butonp">Ajouter au panier</button>
+                    <div class="favorite-button">
+                        <img src="../image/favoris.png" alt="" height="20" width="20" >
+                    </div>
 
+                </div>
 
+            </section>
+        </main>
 
-            </form>
-
-
-
-
-    </main>
+        <div class="message-container"></div>
 </body>
 
 <footer>
@@ -201,7 +167,7 @@
         </div>
         <div class="text-au-centre">
             <ul class="li-footer">
-                <li class="gras-footer"><a href="../html/a-propos.html">A propos de nous</a></li>
+                <li class="gras-footer"><a href="../html/a-propos.html" class="a">A propos de nous</a></li>
                 <li>
                     <a href="../html/Formulaireprojet.html" class="a">Postulez ici</a>
                 </li>
