@@ -98,4 +98,36 @@ height: 25px;
       .aimer:active{
         color:black
       }
-
+      @media (max-width: 768px) {  
+        .logo img { 
+        width: 150px; /*Ajuster la taille du logo */
+            }
+        .input {
+        width: 150px; /*Ajuster la largeur du champ de saisie */
+            }  
+        .button { 
+        padding: 6px 10px; /* Ajuster le rembourrage du bouton */
+        } 
+        #contenant1 {
+        flex-direction: column; /*Changer la navigation en vertical */
+        align-items: flex-start; /*Aligner les éléments au début  */
+        position: static; /* Supprimer position absolute*/
+        padding: 10px; /* Ajouter de la marge*/
+            }
+        .li-header-navigation {
+        display: flex; /* Changer la navigation en horizontale  */   
+        flex-direction: column; /*  Changer la navigation en vertical */
+         position: static; /* Supprimer positionabsolute */
+        padding: 10px; /*  Ajouter de la marge */    
+        width: 100%; /* Rendre la navigation pleine largeur*/
+            }
+        .li-header-navigation li {  
+        margin: 10px 0; /* Ajuster la marge*/
+            }
+        .main {
+        padding: 10px; /* Ajuster la marge*/
+            }
+        footer {
+        padding: 10px; /* Ajuster la marge */
+            }
+        }

@@ -68,3 +68,57 @@
     margin-top: 20px;
    margin-left: 45%;
   }
+  
+@media screen and (max-width: 768px) {
+  
+  #contenant1 {
+    flex-direction: column; /* Changer la direction de la navigation en colonne */
+    align-items: center; /* Aligner les éléments au centre */
+  }
+  .logo {
+    margin-bottom: 20px; /* Ajouter de l'espace sous le logo */
+  }
+  .li-header-navigation li {
+    padding: 10px; /*  Augmenter la marge autour des éléments de navigation */
+  }
+  .input{ width: 100px;
+
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+  .input {
+    width: 100%; /* Rendre le champ de saisie de largeur totale*/
+  }
+  .button {
+    margin-top: 10px; /*Ajouter de l'espace entre le champ de saisie et le bouton  */
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  
+  .a-propos-main {
+    padding: 20px; /* Ajouter de la marge autour du contenu principal */
+  }
+  .centre {
+    text-align: center; /*  Aligner le titre au centre */
+  }
+  .contenu {
+    margin-bottom: 20px; /*Ajouter de l'espace sous le contenu  */
+  }
+  .liste {
+    padding-left: 20px; /* Décaler les éléments de la liste  */
+  }
+  .cta {
+    display: block; /* Afficher le bouton comme un élément de bloc */
+    margin-top: 20px; /* Ajouter de l'espace au-dessus du bouton*/
+    margin-left: auto; /* Aligner le bouton à droite  */
+    margin-right: auto; /* Aligner le bouton à droite */
+    text-align: center; /*  Centrer le texte du bouton */
+    width: 200px; /*Définir la largeur du bouton */
+  }
+}

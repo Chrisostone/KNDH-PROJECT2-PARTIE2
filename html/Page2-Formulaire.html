@@ -14,7 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Lobster&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
     <script src="../JavaScript/barre.js"></script>
+    <script src="../JavaScript/etatDeCommande.js"></script>
     <title>Formulaire2</title>
+   
 </head>
 <body>
     <header>
@@ -91,15 +93,19 @@
                         <p class="paragraphe1">Pour vérifier le statut de la commande ou commencer une procédure de </p>
                         <p class="paragraphe2">retour, saisis ton numéro de commande ainsi que ton addresse e-mail</p>
 
-                        <form>
+                        <form action="#" id="formul">
                             <div class="GR1">
                                 <input class="input1" type="text" name="Ncommande" placeholder="Entrez votre numero de commande"/> 
                             <div>
-
+                                <div>
+                                    <span id = "erreur1"></span>
+                                </div>
                             <div class="GR2">
                                 <input class="input2" type="text" name="couriel" placeholder="Entrez votre addresse couriel"/>
                             </div>
-
+                            <div>
+                                <span id = "erreur2"></span>
+                            </div>
                             <div class="GR3">
                                 <input class="input3" type="submit" value="Soumettre"/>
                             </div>

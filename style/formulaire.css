@@ -98,4 +98,14 @@ h1 {
 
 
  }
- 
+ @media screen and (max-width: 768px) {
+    .div1, .div2, .div3, .div4 {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 576px) {
+    .input {
+        margin-left: 0;
+    }
+}
+
