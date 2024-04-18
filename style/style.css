@@ -176,3 +176,20 @@ footer{
     font: italic;
     font-size: 10px;
 }
+@media screen and (max-width: 768px) {
+  
+    #contenant1 {
+      flex-direction: column; /* Changer la direction de la navigation en colonne */
+      align-items: center; /* Aligner les éléments au centre */
+    }
+    .logo {
+      margin-bottom: 20px; /* Ajouter de l'espace sous le logo */
+    }
+    .li-header-navigation li {
+      padding: 10px; /*  Augmenter la marge autour des éléments de navigation */
+    }
+    .input{ width: 100px;
+
+    }
+  }
+  

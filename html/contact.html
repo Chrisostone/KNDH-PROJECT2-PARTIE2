@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="../JavaScript/barre.js"></script>
     <title>KNDH-Contact</title>
+    <script src="../JavaScript/conctact.js"></script>
 </head>
 <body>
     <header>
@@ -89,27 +90,42 @@
 <main id="contact" class="section-contact">
     <section >
         <h1>Des Question? Ecrivez nous.</h1>
-        <form method="get" action="">
+        <form method="get" action="#" id="formu">
             <div class="form-nom-prenom-telephone-email">
                 <div class="form-column">
                     <label for="nom">Nom</label>
                     <input type="text" name="nom" id="nom" />
                 </div>
+                <div>
+                    <span id = "erreur1"></span>
+                </div>
                 <div class="form-column">
                     <label for="prenom">Prenom</label>
                     <input type="text" name="prenom" id="prenom" />
+                </div>
+                <div>
+                    <span id = "erreur2"></span>
                 </div>
                 <div class="form-column">
                     <label for="numero">Numero de telephone</label>
                     <input type="tel" name="numero" id="numero" />
                 </div>
+                <div>
+                    <span id = "erreur3"></span>
+                </div>
                 <div class="form-column">
                     <label for="email">Email</label>
                     <input type="e-mail" name="email" id="email" />
                 </div>
+                <div>
+                    <span id = "erreur4"></span>
+                </div>
             </div>
             <label for="message">Votre message</label>
             <textarea name="message" id="message" rows="10"></textarea>
+            <div>
+                <span id = "erreur5"></span>
+            </div>
             <input type="submit" value="ENVOYER" class="cta" />
         </form>
     </section>
